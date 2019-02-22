@@ -1,0 +1,165 @@
+body{
+    background-color: #FFE4E1;
+}
+
+#frmStarksMain { /* Starks Main Form */
+    background-color: white;
+    width: 1340px;
+    height: 100%;
+    margin-left: -5px;
+    margin-top: -5px;
+}
+
+#box {
+    position: absolute;
+    margin-top: -170px;
+    margin-left: 1017.5px;
+}
+
+#Logo { /* Starks Banner Logo */
+    position: absolute;
+    margin-left: 25px;
+    margin-top: -204px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+#TopBanner { /* Top Banner */
+    position: relative;
+    width: 1340px;
+    height: 200px;
+}
+
+#TopBannerText { /*Address in top banner*/
+    position: absolute;
+    width: 325px;
+    height: 150px;
+    margin-top: -185px;
+    margin-left: 450px;
+    font-size: 33px;
+    font-family: fantasy;
+    color:white;
+}
+
+
+.buttons{
+    height:30px;
+    width: 100px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: darkblue;
+    color: turquoise;
+}
+
+
+#SignInButton {
+    margin-top: -204px;
+    margin-left: 945px;
+}
+
+#AboutUsButton {
+    margin-top: -204px;
+    margin-left: 1045px;
+
+}
+
+#CareersButton {
+    margin-top: -204px;
+    margin-left: 1145px;
+
+}
+
+#ContactButton {
+    margin-top: -204px;
+    margin-left: 1245px;
+
+}
+
+#ProductsButton {
+    margin-left: 1060px;
+    margin-top: -141.5px;
+    width: 200px;
+    height: 75px;
+    border-radius: 60px;
+}
+
+#MaterialsButton {
+    margin-left: 946px;
+    margin-top: -34px;
+    width: 133px;
+}
+
+#GalleryButton {
+    margin-left: 1079px;
+    margin-top: -34px; 
+    width: 133px;
+}
+
+#CustomQuoteButton {
+    margin-left: 1212px;
+    margin-top: -34px;
+    width: 133px;
+}
+
+.ProductSquare{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 25px;
+    width:825px;
+    height:1500px;
+    background-color: rgb(170, 170, 170);
+}
+
+.Products{
+    position: relative;
+    margin-top: 25px;
+    width:825px;
+    height:300px;
+    background-color: rgb(232, 233, 231);
+}
+
+.ProductTitle{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 250px;
+    width:250px;
+    height:30px;
+    font-size: 35px;
+    background-color: rgb(232, 233, 231);
+}
+
+.ProductImage{
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 20px;
+    width:325px;
+    height:225px;
+}
+
+.ProductDescription{
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 375px;
+    width:275px;
+    height:225px;
+    background-color: rgb(182, 184, 181);
+}
+#Product1{
+    margin-top: 250px;
+}
+
+.AddToCart{
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 675px;
+    width:125x;
+    height:125px;
+}
+
+#Featured{
+    height: 1450px;
+    width: 495px;
+    margin-left: 850px;
+    margin-top: 50px;
+}

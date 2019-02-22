@@ -8,15 +8,16 @@ Abstract: Starks Main Page
 	<Head> 
 		<Title> Stark's Plastics</Title> 
 		<link rel="stylesheet" href="../styles/StarksMain.css">
-		<div id="fb-root"></div> 
-		<script>
-			(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2';
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script>
+
+		<div id="fb-root"></div>
+			<script>(function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+					js = d.createElement(s); js.id = id;
+					js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2&appId=321093632072483&autoLogAppEvents=1';
+					fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+
 	</Head>
 	<Body>
 
@@ -32,7 +33,6 @@ Abstract: Starks Main Page
 					<!-- Background banner -->
 					<img src="../images/blueBackground2.jpg" alt="Misty Blue Background" id = "BannerBack" height="200px" width="1345px" >
 				</div>
-				
 
 				<div id = "StarksLogo">
 					<!-- Starks Logo -->
@@ -40,7 +40,7 @@ Abstract: Starks Main Page
 				</div>	
 
 				<div>
-					<a href="https://www.w3schools.com">							
+					<a href="StarksProducts.html">							
 				 		<img src="../images/BlueBox.png" alt="Misty Blue Background" id = "box" height="125px" width="250px" >
 					</a>
 				</div>
@@ -62,7 +62,6 @@ Abstract: Starks Main Page
 				<button class="buttons" type="button" id = "GalleryButton"      >Gallery        </button>
 				<button class="buttons" type="button" id = "CustomQuoteButton"  >Custom Quote   </button>
 				</div>
-				
 
 			</div>
 
