@@ -1,0 +1,204 @@
+body{
+    background-color: #FFE4E1;
+}
+
+#frmStarksMain { /* Starks Main Form */
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+#box {
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+#Logo { /* Starks Banner Logo */
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 1%;
+    width: 25%;
+    height: 3%;
+    border-radius: 100px;
+}
+
+#TopBanner { /* Top Banner */
+    position: absolute;
+    width: 99%;
+    height: 25%;
+}
+
+#Banner { /* Top Banner */
+    position: absolute;
+    width: 99%;
+    height: 25%;
+}
+
+#BannerBack { /* Top Banner */
+    position: absolute;
+    width: 99%;
+    height: 25%;
+}
+
+#TopBannerText { /*Address in top banner*/
+    position: absolute;
+    width: 99%;
+    height: 3%;
+    font-size: 33px;
+    font-family: fantasy;
+    color:white;
+}
+
+.buttons{
+    height:1%;
+    width: 2%;
+    position: absolute;
+    border-radius: 50%;
+    background-color: darkblue;
+    color: turquoise;
+}
+
+#SignInButton {
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+#AboutUsButton {
+    margin-top: 4%;
+    margin-left: 5%;
+
+}
+
+#CareersButton {
+    margin-top: 4%;
+    margin-left: 25%;
+
+}
+
+#ContactButton {
+    margin-top: 4%;
+    margin-left: 25%;
+
+}
+
+#ProductsButton {
+    margin-top: 1%;
+    margin-left: 15%;
+    width: 3%;
+    height: 3%;
+    border-radius: 60px;
+}
+
+#MaterialsButton {
+    margin-left: 75%;
+    margin-top: 2%;
+    width: 25%;
+}
+
+#GalleryButton {
+    margin-left: 15%;
+    margin-top: 2%;
+    width: 25%;
+}
+
+#CustomQuoteButton {
+    margin-left: 75%;
+    margin-top: 2%;
+    width: 25%;
+}
+
+h1 {
+    position: relative;
+    margin-left: 15%;
+}
+
+#HomeFooter {
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+#AboutUsFooter {
+    margin-top: 1%;
+    margin-left: 1%;
+
+}
+
+#CareersFooter {
+    margin-top: 1%;
+    margin-left: 20%;
+
+}
+
+#ContactFooter {
+    margin-top: 1%;
+    margin-left: 10%;
+
+}
+
+#ProductsFooter {
+    margin-top: 1%;
+    margin-left: 10%;
+}
+
+#MaterialsFooter {
+    margin-top: 1%;
+    margin-left: 10%;
+}
+
+#GalleryFooter {
+    margin-top: 1%;
+    margin-left: 10%;
+}
+
+#FaceBookLinkFooter {
+    margin-top: 1%;
+    margin-left: 10%;
+}
+
+#InstagramLinkFooter {
+    margin-top: 1%;
+    margin-left: 10%;
+
+}
+
+#TwitterLinkFooter {
+    margin-top: 1%;
+    margin-left: 10%;
+}
+
+#FootBanner {
+    margin-bottom: -25px;
+    width: 100%;
+    height: 3%;
+}
+
+#AboutUs{
+    position: relative;
+    width : 100%;
+    height: 50%;
+    margin-bottom: 2%;
+    font-size: 25px;
+}
+
+
+#AboutUsPhoto {
+    position: relative;
+    width : 50%;
+    margin-left: 0%;
+    margin-bottom: 5%;
+}
+
+#AboutUsText{
+    position: relative;
+    height : 50%;
+    width : 100%;
+    margin-left: 0%;
+    margin-bottom: 5%;
+}
+
+#FBPost{
+    position: relative;
+    width: 20%;
+    height: 35%;
+}
