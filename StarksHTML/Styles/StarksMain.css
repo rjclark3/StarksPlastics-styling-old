@@ -4,7 +4,7 @@ body{
 
 #frmStarksMain { /* Starks Main Form */
     background-color: white;
-    width: 1340px;
+    width: 100%;
     height: 100%;
     margin-left: -5px;
     margin-top: -5px;
@@ -27,13 +27,13 @@ body{
 
 #TopBanner { /* Top Banner */
     position: relative;
-    width: 1340px;
+    width: 100%;
     height: 200px;
 }
 
 #TopBannerText { /*Address in top banner*/
     position: absolute;
-    width: 325px;
+    width: 100%;
     height: 150px;
     margin-top: -185px;
     margin-left: 450px;
@@ -41,7 +41,6 @@ body{
     font-family: fantasy;
     color:white;
 }
-
 
 .buttons{
     height:30px;
@@ -51,7 +50,6 @@ body{
     background-color: darkblue;
     color: turquoise;
 }
-
 
 #SignInButton {
     margin-top: -204px;
@@ -103,28 +101,8 @@ body{
 }
 
 h1 {
-    text-align: center;
-}
-
-
-.fb-page {
-    margin-top: 25px;
-    margin-left: 150px;
-    font-size: 28px;
-    text-align: center;
-    height: 400px;
-    width: 1000px;
-
-}
-
-#AboutUs {
-    margin-top: 50px;
-}
-
-#AboutUsPhoto {
-    height : 300px;
-    width : 1000px;
-    margin-left: 180px;
+position: relative;
+margin-left: 15%;
 }
 
 #HomeFooter {
@@ -185,4 +163,35 @@ h1 {
     margin-bottom: -25px;
     width: 1340px;
     height: 50px;
+}
+
+#AboutUs{
+    position: relative;
+    width : 50%;
+    height: 60%;
+    margin-left : 40%;
+    margin-bottom: 2%;
+    font-size: 25px;
+}
+
+
+#AboutUsPhoto {
+    position: relative;
+    width : 60%;
+    margin-left: 0%;
+    margin-bottom: 5%;
+}
+
+#AboutUsText{
+    position: relative;
+    height : 50%;
+    width : 80%;
+    margin-left: 0%;
+    margin-bottom: 5%;
+}
+
+#FBPost{
+    position: absolute;
+    width: 500px;
+    height: 450px;
 }
